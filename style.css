@@ -12,18 +12,16 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px 40px;
-  background: #020617;
-  text-align: center; 
-  padding: 20px 0; 
+  gap: 50px;
+
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
 }
 
