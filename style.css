@@ -12,37 +12,22 @@ body {
 
 nav {
   display: flex;
-  justify-content: center; 
-  align-items: center;     
-  gap: 50px;               
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #020617;
 }
-
 
 nav ul {
-  display: flex;
   list-style: none;
-  justify-content: center; 
-  gap: 30px; 
+  display: flex;
+  gap: 20px;
 }
-
 
 nav a {
   color: #e5e7eb;
   text-decoration: none;
 }
-nav ul.nav-links {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 30px;               
-}
-
-nav .logo {
-  font-size: 28px;
-  margin-bottom: 15px; 
-}
-
 
 .hero {
   text-align: center;
@@ -92,9 +77,8 @@ footer {
 .motto {
   color: #38bdf8;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 40px; 
+  line-height: 1.5; 
   font-style: italic;
   text-align: center;
 }
-
-
