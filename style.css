@@ -1,86 +1,26 @@
-/* General Body */
-body {
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* Navigation */
 nav {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;       
+  padding: 20px 0;          
+  background-color: #0f172a; 
 }
 
 nav .logo {
+  display: block;           
   font-size: 28px;
-  margin-bottom: 15px;
+  margin-bottom: 15px;      
+  color: #e5e7eb;          
 }
 
 nav ul.nav-links {
-  list-style: none;
+  list-style: none;         
   padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+  display: flex;            
+  justify-content: center;  
+  gap: 30px;                
 }
 
 nav ul.nav-links li a {
+  color: #e5e7eb;          
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
-
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 100px 20px 50px 20px;
-  background-color: #e0f7fa;
-}
-
-.hero h1 span {
-  color: #00796b;
-}
-
-.hero .motto {
-  color: #38bdf8;
-  font-size: 20px;
-  margin-top: 30px;
-  font-style: italic;
-}
-
-/* Sections */
-section {
-  padding: 60px 20px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.skills-box, .projects-box {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.skills-box div, .projects-box .card {
-  background-color: #fff;
-  padding: 15px 25px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  min-width: 150px;
-  text-align: center;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #fff;
-  color: #555;
 }
 
