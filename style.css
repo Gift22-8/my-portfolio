@@ -16,6 +16,8 @@ nav {
   align-items: center;
   padding: 20px 40px;
   background: #020617;
+  text-align: center; 
+  padding: 20px 0; 
 }
 
 nav ul {
@@ -27,6 +29,18 @@ nav ul {
 nav a {
   color: #e5e7eb;
   text-decoration: none;
+}
+
+nav ul.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  gap: 30px;               
+}
+nav .logo {
+  font-size: 28px;
+  margin-bottom: 15px; 
 }
 
 .hero {
