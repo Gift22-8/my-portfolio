@@ -1,65 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitota | Software Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ 
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Sitota<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <nav>
-    <h2 class="logo">Portfolio</h2>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hello, I'm <span class="highlight">Sitota</span></h1>
+            <h2>Software Engineering Student</h2>
+            <p class="tagline">Learning. Building. Growing.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
 
-  <section id="home" class="hero">
-    <h1>Hello, I'm <span>Sitota</span></h1>
-    <p id="hero-text">Software Engineering Student</p>
-    <br>
-    <h3 class="motto">Learning. Building. Growing.</h3>
-  </section>
+   
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>My name is Sitota Yonas. I am a software engineering student at Arbaminch University and learning web development using HTML, CSS, and JavaScript. I build simple projects to improve my skills.</p>
+            <p>I'm passionate about coding and continuously learning new technologies like C++, Java, PHP, and Git to become a better developer.</p>
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      My name is <strong>Sitota Yonas</strong>.I am a software engineering student  at arbaminch University and learning web development using
-      HTML, CSS, and JavaScript. I build simple projects to improve my skills.
-    </p>
-  </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-php"></i>
+                    <h3>PHP</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>C++</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-box">
-      <div>HTML</div>
-      <div>CSS</div>
-      <div>JavaScript</div>
-    </div>
-  </section>
+   
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This responsive portfolio website built with HTML, CSS, and JavaScript to showcase my work and skills.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>JavaScript Text Changer</h3>
+                    <p>An interactive web application that changes text dynamically using JavaScript event handling and DOM manipulation.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Simple Image Slider</h3>
+                    <p>A lightweight image carousel with navigation buttons and smooth transitions, built with vanilla JavaScript.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-box">
-      <div class="card">Portfolio Website</div>
-      <div class="card">JavaScript Text Changer</div>
-      <div class="card">Simple Image Slider</div>
-    </div>
-  </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: sitegifted@gmail.com</p>
-  </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: sitegifted@gmail.com</p>
+                <p><i class="fas fa-graduation-cap"></i> Software Engineering Student, Arbaminch University</p>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2026 Sitota</p>
-  </footer>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sitota Yonas</p>
+        </div>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
