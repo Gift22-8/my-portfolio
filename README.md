@@ -1,13 +1,29 @@
-# Personal Portfolio - Sitota Yonas
+# My Portfolio
 
-Personal portfolio website for Sitota Yonas, Software Engineering student.
+A personal portfolio website showcasing my skills, projects, and certificates as a Software Engineering student.
 
-Built with HTML, CSS, and Vanilla JavaScript to showcase projects, technical skills, and verified certifications.
+## Built With
 
-## Featured Projects
-- **Bloom**: Task and productivity web application built with vanilla JavaScript and browser localStorage.
-- **Student Management System**: Desktop application built using Python, Tkinter, SQLite, and OOP principles.
-- **The Daily (Blog App)**: Full-stack blog platform featuring user authentication and rich text editing.
+* HTML
+* CSS
+* JavaScript
 
-## How to Run
-Open `index.html` in any web browser.
+## Projects
+
+* Bloom
+* Student Management System
+* The Daily (Blog App)
+
+## Live Website
+
+https://gift22-8.github.io/my-portfolio/
+
+## Contact
+
+* Email: [sitegifted@gmail.com](mailto:sitegifted@gmail.com)
+* GitHub: https://github.com/Gift22-8
+* LinkedIn: https://www.linkedin.com/in/sitota-yonas-18a371375
+
+---
+
+**Learning. Building. Growing.**
