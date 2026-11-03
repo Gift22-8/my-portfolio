@@ -454,8 +454,8 @@ section {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
 }
 
 .project-card {
@@ -585,8 +585,8 @@ section {
 
 .certificates-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
 }
 
 .certificate-card {
@@ -607,7 +607,7 @@ section {
 
 .certificate-preview-container {
   position: relative;
-  height: 210px;
+  height: 155px;
   background-color: #020617;
   overflow: hidden;
   border-bottom: 1px solid var(--border-color);
@@ -642,7 +642,7 @@ section {
 }
 
 .certificate-content {
-  padding: 26px;
+  padding: 16px 18px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -658,7 +658,7 @@ section {
 }
 
 .certificate-title {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.35;
@@ -667,9 +667,9 @@ section {
 
 .certificate-description {
   color: var(--text-secondary);
-  font-size: 0.92rem;
-  line-height: 1.6;
-  margin-bottom: 18px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
   flex-grow: 1;
 }
 
@@ -701,13 +701,13 @@ section {
 
 .btn-cert-view {
   flex: 1;
-  min-width: 130px;
+  min-width: 110px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-size: 0.88rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
   font-weight: 600;
   background-color: var(--accent-blue);
   color: #020617;
@@ -727,9 +727,9 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-size: 0.88rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;
   background-color: transparent;
@@ -805,13 +805,13 @@ section {
 
 .btn-contact {
   flex: 1;
-  max-width: 180px;
+  max-width: 135px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-size: 0.9rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.82rem;
   font-weight: 600;
   text-decoration: none;
   background-color: transparent;
@@ -828,9 +828,9 @@ section {
 }
 
 .btn-copy-email {
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-size: 0.85rem;
+  padding: 6px 11px;
+  border-radius: 6px;
+  font-size: 0.8rem;
   font-weight: 600;
   background-color: transparent;
   color: var(--text-secondary);
