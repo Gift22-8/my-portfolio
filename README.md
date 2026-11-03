@@ -1,7 +1,6 @@
 # 🌟 Sitota Yonas - Personal Portfolio Website
 
-> **"Learning. Building. Growing."**  
-> *Personal portfolio website of Sitota Yonas, 4th-year Software Engineering student at Arba Minch University.*
+> *Personal portfolio website of Sitota Yonas, Software Engineering student.*
 
 ---
 
@@ -23,8 +22,8 @@ This is a modern, responsive, and accessible personal portfolio website built us
 
 ## 📑 Main Sections
 
-1. **Home / Hero**: Professional introduction, student status badge, university title, personal motto (*"Learning. Building. Growing."*), and call-to-action buttons.
-2. **About Me**: A natural, concise summary of academic journey and software engineering interests, accompanied by a 3-part detail grid (Degree, Institution, and Philosophy).
+1. **Home / Hero**: Professional introduction, student status badge, title, and "Contact Me" call-to-action button.
+2. **About Me**: A natural, concise summary of software engineering interests, focus areas, and hands-on learning.
 3. **Technical Skills**: Structured into three distinct categories:
    * **Frontend Development**: HTML5, CSS3, JavaScript (ES6+)
    * **Programming & Systems**: Python, Java, Object-Oriented Programming (OOP)
@@ -38,7 +37,7 @@ This is a modern, responsive, and accessible personal portfolio website built us
    * **JavaScript Algorithms & Data Structures** — *freeCodeCamp*
    * **Programming Fundamentals** — *Udacity & 5 Million Ethiopian Coders Initiative*
 6. **Contact**: Direct communication channels including email with one-click copy, GitHub, and LinkedIn profile links.
-7. **Footer**: University attribution, motto, automatically calculated copyright year, and a smooth scroll-to-top button.
+7. **Footer**: Clean copyright attribution, automatically calculated copyright year, and a smooth scroll-to-top button.
 
 ---
 
@@ -161,7 +160,7 @@ Right-click `index.html` in VS Code and click **"Open with Live Server"**.
 ## 👤 Author
 
 * **Name**: Sitota Yonas
-* **Degree**: B.Sc. in Software Engineering (4th Year), Arba Minch University
+* **Role**: Software Engineering Student
 * **GitHub**: [@Gift22-8](https://github.com/Gift22-8)
 * **LinkedIn**: [Sitota Yonas](https://www.linkedin.com/in/sitota-yonas-18a371375)
 * **Email**: [sitegifted@gmail.com](mailto:sitegifted@gmail.com)
